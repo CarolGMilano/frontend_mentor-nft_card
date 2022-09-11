@@ -1,0 +1,32 @@
+@media screen and (min-width: 500px) {
+    
+    section {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .card {
+        width: 300px;
+        height: 500px;
+    }
+
+    .container__imagem:hover {
+        background: url('../img/icon-view.svg') no-repeat center;
+    }
+    
+    .card__imagem:hover {
+        filter: opacity(0.3) drop-shadow(0 0 0 var(--ciano));
+    }
+
+    .conteudo__titulo:hover {
+        color: var(--ciano);
+    }
+
+    .perfil__nome:hover {
+        color: var(--ciano);
+    }
+}
